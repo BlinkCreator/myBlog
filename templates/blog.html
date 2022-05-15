@@ -2,10 +2,10 @@
 
 {% block content %}
 <h1 class="title">
-  {{ section.title }}
+  {{ main.title }}
 </h1>
 <ul>
-  {% for page in section.pages %}
+  {% for page in main.pages %}
   <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
   {% endfor %}
 </ul>
