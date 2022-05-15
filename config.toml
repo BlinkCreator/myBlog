@@ -1,8 +1,8 @@
 # The URL the site will be built for
 base_url = "https://example.com"
 
-title = "Zola Template"
-description = "A template for a Zola based personal website"
+title = "Michael Te Mana-Aroha O'Connor"
+description = "Contemplations of questions, answers and experiences"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -17,5 +17,5 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-author = "YOUR NAME HERE"
+author = "Michael O'Connor"
 twitter_handle = "@your_twitter"
