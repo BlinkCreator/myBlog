@@ -1,0 +1,5 @@
+<blockquote {% if url %}cite="{{url}}"{% endif %}>
+{% for paragraph in body | split(pat="//") | safe %}
+    <p>{{ paragraph | safe }}</p>
+{% endfor %}
+</blockquote>

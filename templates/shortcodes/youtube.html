@@ -1,0 +1,16 @@
+<div class="video-container">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/{{id}}?{% if start %}start={{start}}{% endif %}&{% if end %}end={{end}}{% endif %}"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen>
+    </iframe>
+</div>
+<p>And for those that can't watch:</p>
+{# This duplicates blockquote.html, but shortcodes can't be composed as of yet #}
+{# See  https://github.com/getzola/zola/issues/515 #}
+<blockquote {% if url %}cite="https://youtu.be/{{url}}"{% endif %}>
+{% for paragraph in body | split(pat="//") %}
+    <p>{{ paragraph }}</p>
+{% endfor %}
+</blockquote>
