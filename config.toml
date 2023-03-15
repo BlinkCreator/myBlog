@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "my-webtree.vercel.app"
+base_url = "https://my-webtree.vercel.app/blog/"
 
 title = "Michael Te Mana-Aroha O'Connor"
 description = "Contemplations of questions, answers and experiences"
