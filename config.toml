@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://temanaarohasblog-9xxw64fln-blinkcreator.vercel.app/"
+base_url = "my-webtree.vercel.app"
 
 title = "Michael Te Mana-Aroha O'Connor"
 description = "Contemplations of questions, answers and experiences"
