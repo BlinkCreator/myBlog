@@ -2,8 +2,6 @@
 title = "An Essay on time travel literature from the perspective of a 17 year old"
 date = 2023-05-16
 +++
-
-## An Essay on time travel literature from the perspective of a 17 year old
 Orginally titled - "help me pls", the following essay is one I wrote unprompted with zero context.
 Upon reading it I found it quite enjoyable that I had this little window into the past.
 
